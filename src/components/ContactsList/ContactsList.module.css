@@ -1,0 +1,22 @@
+.filterContainer {
+  margin-bottom: 20px;
+}
+
+.filterInput {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.contactList {
+  list-style: none;
+  padding: 0;
+}
+
+.filterInput,
+.contactText {
+  box-sizing: border-box;
+  width: 100%;
+}

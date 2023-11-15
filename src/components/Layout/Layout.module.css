@@ -1,0 +1,14 @@
+.box {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.footer {
+  background-color: #fbf6f6;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #333;
+}

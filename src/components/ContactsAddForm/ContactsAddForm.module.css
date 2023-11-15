@@ -1,0 +1,76 @@
+.modalContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.modalContent {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 10% auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  background: white;
+  padding: 20px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.label {
+  margin-bottom: 10px;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: #156963;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  align-self: center;
+}
+
+.button:hover {
+  background: #175c57;
+}
+
+.closeButton {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  background: transparent;
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
+  padding: 5px;
+  color: #333;
+}
+
+.closeButton:hover {
+  color: #f00;
+}

@@ -1,0 +1,33 @@
+.contactContainer {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px 15px;
+  margin-bottom: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+.contactContainer:hover {
+  transform: scale(1.005); 
+}
+
+
+.contactText {
+  font-size: 16px;
+}
+
+
+.deleteButton {
+  background-color: #C9453B;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: auto;
+}
+
+.deleteButton:hover {
+  background-color: #dc392e;
+}
