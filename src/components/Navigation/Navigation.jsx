@@ -25,7 +25,7 @@ export const Navigation = () => {
   return (
     <div className={css.navBox}>
       <div className={css.linkContainer}>
-        <NavLink to="" className={css.link}>
+        <NavLink to="/" className={css.link}>
           Home
         </NavLink>
 
