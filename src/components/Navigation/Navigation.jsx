@@ -11,7 +11,6 @@ export const Navigation = () => {
   const token = useSelector(selectAuthData);
   const profile = useSelector(selectProfile);
 
-
   useEffect(() => {
     if (token) {
       dispatch(getProfileThunk());
@@ -63,4 +62,3 @@ export const Navigation = () => {
     </div>
   );
 };
-
